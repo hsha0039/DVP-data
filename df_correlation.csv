@@ -1,0 +1,50 @@
+,Var1,Var2,value
+1,Population,Population,1
+2,Median Age,Population,-0.38
+3,Median Income,Population,0.14
+4,Unemp Rate,Population,0.18
+5,Mean Yr of Edu,Population,0.25
+6,Cases per Pop.,Population,0.29
+7,Covid cases,Population,0.96
+8,Population,Median Age,-0.38
+9,Median Age,Median Age,1
+10,Median Income,Median Age,-0.33
+11,Unemp Rate,Median Age,-0.34
+12,Mean Yr of Edu,Median Age,-0.25
+13,Cases per Pop.,Median Age,-0.56
+14,Covid cases,Median Age,-0.46
+15,Population,Median Income,0.14
+16,Median Age,Median Income,-0.33
+17,Median Income,Median Income,1
+18,Unemp Rate,Median Income,-0.39
+19,Mean Yr of Edu,Median Income,0.55
+20,Cases per Pop.,Median Income,0.26
+21,Covid cases,Median Income,0.15
+22,Population,Unemp Rate,0.18
+23,Median Age,Unemp Rate,-0.34
+24,Median Income,Unemp Rate,-0.39
+25,Unemp Rate,Unemp Rate,1
+26,Mean Yr of Edu,Unemp Rate,-0.01
+27,Cases per Pop.,Unemp Rate,0.12
+28,Covid cases,Unemp Rate,0.2
+29,Population,Mean Yr of Edu,0.25
+30,Median Age,Mean Yr of Edu,-0.25
+31,Median Income,Mean Yr of Edu,0.55
+32,Unemp Rate,Mean Yr of Edu,-0.01
+33,Mean Yr of Edu,Mean Yr of Edu,1
+34,Cases per Pop.,Mean Yr of Edu,0.26
+35,Covid cases,Mean Yr of Edu,0.23
+36,Population,Cases per Pop.,0.29
+37,Median Age,Cases per Pop.,-0.56
+38,Median Income,Cases per Pop.,0.26
+39,Unemp Rate,Cases per Pop.,0.12
+40,Mean Yr of Edu,Cases per Pop.,0.26
+41,Cases per Pop.,Cases per Pop.,1
+42,Covid cases,Cases per Pop.,0.43
+43,Population,Covid cases,0.96
+44,Median Age,Covid cases,-0.46
+45,Median Income,Covid cases,0.15
+46,Unemp Rate,Covid cases,0.2
+47,Mean Yr of Edu,Covid cases,0.23
+48,Cases per Pop.,Covid cases,0.43
+49,Covid cases,Covid cases,1

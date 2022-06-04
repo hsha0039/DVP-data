@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Population",
+        "values1": [
+            {
+                "variant": "Original & Other", 
+                "value": 0.65
+            },
+            {
+                "variant": "Delta", 
+                "value": 0.61
+            },
+            {
+                "variant": "Omicron", 
+                "value": 0.95
+            }
+        ],
+        "values2": [
+            {
+                "variant": "Original & Other", 
+                "value": -0.1
+            },
+            {
+                "variant": "Delta", 
+                "value": 0.19
+            },
+            {
+                "variant": "Omicron", 
+                "value": 0.11
+            }
+        ]
+    }, 
+    {
+        "name": "Median Age",
+        "values1": [
+            {
+                "variant": "Original & Other", 
+                "value": -0.32
+            },
+            {
+                "variant": "Delta", 
+                "value": -0.39
+            },
+            {
+                "variant": "Omicron", 
+                "value": -0.44
+            }
+        ],
+        "values2": [
+            {
+                "variant": "Original & Other", 
+                "value": -0.04
+            },
+            {
+                "variant": "Delta", 
+                "value": -0.45
+            },
+            {
+                "variant": "Omicron", 
+                "value": -0.49
+            }
+        ]
+    },
+    {
+        "name": "Median Income",
+        "values1": [
+            {
+                "variant": "Original & Other", 
+                "value": 0.2
+            },
+            {
+                "variant": "Delta", 
+                "value": -0.24
+            },
+            {
+                "variant": "Omicron", 
+                "value": -0.06
+            }
+        ],
+        "values2": [
+            {
+                "variant": "Original & Other", 
+                "value": 0.39
+            },
+            {
+                "variant": "Delta", 
+                "value": -0.26
+            },
+            {
+                "variant": "Omicron", 
+                "value": 0.11
+            }
+        ]
+    },
+    {
+        "name": "Unemp Rate",
+        "values1": [
+            {
+                "variant": "Original & Other", 
+                "value": 0.11
+            },
+            {
+                "variant": "Delta", 
+                "value": 0.45
+            },
+            {
+                "variant": "Omicron", 
+                "value": 0.31
+            }
+        ],
+        "values2": [
+            {
+                "variant": "Original & Other", 
+                "value": -0.15
+            },
+            {
+                "variant": "Delta", 
+                "value": 0.47
+            },
+            {
+                "variant": "Omicron", 
+                "value": 0.15
+            }
+        ]
+    },
+    {
+        "name": "Mean Yr of Edu",
+        "values1": [
+            {
+                "variant": "Original & Other", 
+                "value": 0.17
+            },
+            {
+                "variant": "Delta", 
+                "value": -0.24
+            },
+            {
+                "variant": "Omicron", 
+                "value": -0.04
+            }
+        ],
+        "values2": [
+            {
+                "variant": "Original & Other", 
+                "value": 0.26
+            },
+            {
+                "variant": "Delta", 
+                "value": -0.32
+            },
+            {
+                "variant": "Omicron", 
+                "value": 0
+            }
+        ]
+    }
+]
