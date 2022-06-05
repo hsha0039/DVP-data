@@ -264,12 +264,13 @@
             <button id="play-button">Play</button>
         </div>
 
-        <div id="map" style="width:1500px; height: 650px;">
-            <svg width="1500px" height="650px"></svg>
-        </div>
-
-        <div style="position: absolute; top:725px; right:10px">
-            <svg id="mapLegend" width="120px" height="300px"></svg>
+        <div sytle="position: relative">
+            <div id="map" style="width:1400px; height: 600px;">
+                <svg width="1400px" height="600px"></svg>
+            </div>
+            <div style="position: absolute; top:750px; right:10px">
+                <svg id="mapLegend" width="120px" height="300px"></svg>
+            </div>
         </div>
         
         <div style="position: absolute;top:1350px; right:10px">
@@ -279,7 +280,7 @@
               </label>
         </div>
 
-        <div style="position: absolute;top:1380px; right:35px">
+        <div style="position: absolute;top:1400px; right:35px">
               <div id="textHideText">
                 Hide text
               </div>
@@ -325,8 +326,8 @@
         </div>
 
         <div style="padding: 100">
-            <svg id="boxPlotValue" width="1600px" height="20px"></svg>
-            <svg id="boxPlot" width="1600px" height="250px"></svg>
+            <svg id="boxPlotValue" width="1500px" height="20px"></svg>
+            <svg id="boxPlot" width="1500px" height="200px"></svg>
         </div>
 
         <div>
@@ -403,7 +404,7 @@
                     d3.select("#hideText").style("display", "none")
                     d3.selectAll(".leaflet-tooltip").style("display", "none") // Hide the text on the map as well
                     d3.select("#textHideText").text("Show text")
-                    window.scrollTo(0, 725);
+                    window.scrollTo(0, 750);
                 }
             }
             
@@ -679,9 +680,9 @@
                 })
 
                 // Initialize svg
-                var margin = {top: 0, right: 30, bottom: 30, left: 40},
-                    width = 1600 - margin.left - margin.right,
-                    height = 250 - margin.top - margin.bottom;
+                var margin = {top: 0, right: 40, bottom: 22, left: 40},
+                    width = 1500 - margin.left - margin.right,
+                    height = 200 - margin.top - margin.bottom;
 
                 var svg = d3.select("#boxPlot")
                     .append("svg")
@@ -1027,7 +1028,7 @@
                                 clearInterval(timer);
                                 button.text("Play");
                             } else {
-                                window.scrollTo(0, 425); // Scroll to location for the user to better view the map
+                                window.scrollTo(0, 450); // Scroll to location for the user to better view the map
                                 moving = true;
                                 timer = setInterval(step, 200); // Run the step function every 200ms
                                 button.text("Pause");
