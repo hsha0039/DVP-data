@@ -733,7 +733,7 @@
                     // Box plot stats on the up left, not displayed if not mouse overed axis
                     svg.append("text")
                         .attr("class", "stats")
-                        .attr("x", function(){return(x(element.name) - 85)})
+                        .attr("x", function(){return(x(element.name) - 75)})
                         .attr("y", 13)
                         .style("font-size", 13)
                         .style("fill", "rgb(224, 219, 194)")
@@ -742,7 +742,7 @@
 
                     svg.append("text")
                         .attr("class", "stats")
-                        .attr("x", function(){return(x(element.name) - 85)})
+                        .attr("x", function(){return(x(element.name) - 75)})
                         .attr("y", 29)
                         .style("font-size", 13)
                         .style("fill", "rgb(224, 219, 194)")
@@ -751,7 +751,7 @@
                     
                     svg.append("text")
                         .attr("class", "stats")
-                        .attr("x", function(){return(x(element.name) - 85)})
+                        .attr("x", function(){return(x(element.name) - 75)})
                         .attr("y", 45)
                         .style("font-size", 13)
                         .style("fill", "rgb(224, 219, 194)")
@@ -900,7 +900,7 @@
                     
                             legendSvg.append("text")
                                 .attr("x", 35)
-                                .attr("y", 47 + 25*index)
+                                .attr("y", 53 + 25*index)
                                 .style("font-size", 20)
                                 .style("fill", colorScale(Math.sqrt(element)))
                                 .text(element)
@@ -1207,7 +1207,7 @@
                     .enter()
                     .append("text")
                         .attr("class", function(d){ return d.name })
-                        .attr("x", 600)
+                        .attr("x", width-60)
                         .attr("y", function(d,i){ return i * 20})
                         .text(function(d) { return d.name; })
                         .style("fill", function(d){ return color(d.name) })
